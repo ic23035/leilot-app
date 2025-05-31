@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardPayment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="-41dp">
+
+        <EditText
+            android:id="@+id/cardNumberInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter card number"
+            android:inputType="number"
+            android:maxLength="16" />
+
+        <EditText
+            android:id="@+id/cardNameAndSurnameInput"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:hint="Name/Surname"
+            android:inputType="textPersonName"
+            android:maxLength="50" />
+
+        <EditText
+            android:id="@+id/textBoxCVCInput"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:hint="CVC"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <EditText
+            android:id="@+id/expirationMonthInput"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="MM"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <EditText
+            android:id="@+id/expirationYearInput"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="YY"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <Button
+            android:id="@+id/payButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/PayButton" />
+
+        <TextView
+            android:id="@+id/paymentStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/selectedAmountText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

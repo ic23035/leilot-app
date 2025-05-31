@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:padding="8dp"
+    android:background="@color/colorPrimary">
+
+<TextView
+    android:id="@+id/title"
+    android:text="Τίτλος"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:textSize="16sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<TextView
+    android:id="@+id/price"
+    android:text="Τιμή ανά ώρα"
+    android:textColor="#555555"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"/>
+
+<TextView
+    android:id="@+id/availability"
+    android:text="Διαθεσιμότητα"
+    android:textColor="@color/colorAccent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"/>
+
+</LinearLayout>
+

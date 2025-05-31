@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item> <!-- Χρώμα φόντου -->
+        <item name="android:textColor">@color/colorPrimary</item> <!-- Χρώμα κειμένου -->
+        <item name="android:textSize">18sp</item> <!-- Μέγεθος κειμένου -->
+        <item name="android:padding">15dp</item> <!-- Padding γύρω από το κουμπί -->
+        <item name="android:layout_marginBottom">50dp</item> <!-- Απόσταση από το κάτω μέρος -->
+        <item name="android:elevation">4dp</item> <!-- Σκιά (elevation) -->
+    </style>
+
+
+</resources>
