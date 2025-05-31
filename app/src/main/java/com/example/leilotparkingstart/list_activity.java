@@ -50,6 +50,7 @@ public class list_activity extends AppCompatActivity {
             Intent intent = new Intent(list_activity.this, FormActivity.class);
             intent.putExtra("selectedSpot", selectedSpot);
             startActivity(intent);
+            finish();
 
             // Εδώ ο άλλος θα υλοποιήσει τη λογική στάθμευσης
         });

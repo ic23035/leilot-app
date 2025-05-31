@@ -66,6 +66,7 @@ public class FormActivity extends AppCompatActivity {
                 Intent intent2 = new Intent(FormActivity.this, ParkingActivity.class);
                 intent2.putExtra("selectedSpot", selectedSpot);
                 startActivity(intent2);
+                finish();
             }
 
         });

@@ -62,6 +62,7 @@ public class ParkingActivity extends AppCompatActivity {
                     new Handler().postDelayed(() -> {
                         Intent intent = new Intent(ParkingActivity.this, MapsActivity.class);
                         startActivity(intent);
+                        finish();
                     }, 1500);
 
 

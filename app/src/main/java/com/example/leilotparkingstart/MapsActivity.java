@@ -74,6 +74,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 Intent intent = new Intent(MapsActivity.this, FormActivity.class);
                 intent.putExtra("selectedSpot", selectedSpot);
                 startActivity(intent);
+                finish();
             }
         });
 
