@@ -12,14 +12,13 @@ public class Balance {
         this.context = context.getApplicationContext();
     }
 
-    // Μία φορά στην αρχή
+
     public static void init(Context context) {
         if (instance == null) {
             instance = new Balance(context);
         }
     }
 
-    // Μετά παντού χωρίς context
     public static Balance getInstance() {
         if (instance == null) {
             throw new IllegalStateException("Call Balance.init(context) before using getInstance()");

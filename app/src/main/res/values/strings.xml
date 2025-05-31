@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LeiLotParkingStart</string>
+    <string name="app_name">LeiLot</string>
     <string name="PA_name">LeiLotApp</string>
     <string name="toolbar_title">Parking Payment</string>
     <string name="buttonPayment_text">GO TO PAYMENT PAGE</string>
