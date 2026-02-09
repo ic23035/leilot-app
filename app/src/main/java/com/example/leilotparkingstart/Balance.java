@@ -47,6 +47,7 @@ public class Balance {
         editor.apply();
     }
 
+
     public float addBalance(float selectedAmount) {
         balance += selectedAmount;
         updateUserBalance(balance);
